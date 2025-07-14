@@ -21,7 +21,10 @@ DATABASE_FILE = "ecommerce_sites.db"
 SEARCH_CONFIG_FILE = "search_phrases.json"
 GOOGLE_SHEET_NAME = "Scraped Leads"
 GOOGLE_CREDS_FILE = "credentials.json"
-SERPER_API_KEY = "YOUR_SERPER_API_KEY"  # <-- IMPORTANT: Add your key here
+import os # Add this to your imports at the top of the file
+
+# ... later in the CONFIGURATION section ...
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
 # List of domains to completely ignore.
 BLACKLISTED_DOMAINS = [
