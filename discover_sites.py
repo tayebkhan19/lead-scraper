@@ -25,9 +25,11 @@ SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
 # --- REFINEMENT KEYWORDS ---
 BLACKLISTED_DOMAINS = [
-    'amazon.com', 'amazon.in', 'flipkart.com', 'walmart.com', 'ebay.com', 'etsy.com',
-    'youtube.com', 'pinterest.com', 'facebook.com', 'instagram.com', 'linkedin.com',
-    'twitter.com', 'help.ecomposer.io'
+    'amazon.com', 'amazon.in', 'flipkart.com', 'myntra.com', 'ajio.com',
+    'meesho.com', 'nykaa.com', 'snapdeal.com', 'tatacliq.com', 'jiomart.com',
+    'pepperfry.com', 'limeroad.com', 'walmart.com', 'ebay.com', 'etsy.com',
+    'pinterest.com', 'facebook.com', 'instagram.com', 'linkedin.com',
+    'twitter.com', 'youtube.com', 'help.ecomposer.io'
 ]
 NEGATIVE_KEYWORDS = [
     '/blog/', '/news/', '/docs/', '/forum/', '/support/',
