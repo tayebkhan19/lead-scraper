@@ -253,7 +253,7 @@ def main():
                     'X-API-KEY': SERPER_API_KEY,
                     'Content-Type': 'application/json'
                 }
-                payload = json.dumps({'q': phrase})
+                payload = json.dumps({'q': phrase, 'num': 100})
                 response = requests.post(
                     "https://google.serper.dev/search",
                     headers=headers,
