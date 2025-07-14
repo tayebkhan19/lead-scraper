@@ -93,17 +93,27 @@ def setup_google_sheet():
 
 
 def clean_and_validate_url(url):
-    """Cleans URL and checks against blacklists."""
+    """
+    Cleans URL to its base domain and checks against blacklists.
+    Returns cleaned URL if valid, otherwise None.
+    """
     try:
         parsed = urlparse(url)
-        cleaned_url = urlunparse((parsed.scheme, parsed.netloc, parsed.path, '', '', ''))
+        # REBUILD THE URL WITH ONLY THE SCHEME AND DOMAIN
+        cleaned_url = urlunparse((parsed.scheme, parsed.netloc, '', '', '', ''))
+
+        # Check against domain blacklist
         domain = parsed.netloc.replace('www.', '')
-        if any(blacklisted in domain for blacklisted in BLACKLISTED_DOMAINS) or \
-           any(keyword in cleaned_url for keyword in NEGATIVE_KEYWORDS):
+        if any(blacklisted in domain for blacklisted in BLACKLISTED_DOMAINS):
             return None
+
+        # The negative keyword check is now less critical but can stay
+        if any(keyword in url for keyword in NEGATIVE_KEYWORDS):
+            return None
+
         return cleaned_url
     except Exception:
-        return None
+        return None # Ignore malformed URLs
 
 
 # --- PART 4: SAVING FUNCTIONS ---
