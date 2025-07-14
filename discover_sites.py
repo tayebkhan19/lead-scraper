@@ -247,7 +247,7 @@ def main():
             print(f"\n🔍 Searching API with phrase: \"{phrase}\"")
             try:
                 headers = {'X-API-KEY': SERPER_API_KEY, 'Content-Type': 'application/json'}
-                payload = json.dumps({'q': phrase, 'num': 100})
+                payload = json.dumps({'q': phrase, 'num': 100, 'tbs': 'qdr:y'})
                 response = requests.post("https://google.serper.dev/search", headers=headers, data=payload, timeout=20)
                 response.raise_for_status()
                 search_results = response.json().get('organic', [])
