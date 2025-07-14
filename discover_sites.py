@@ -5,6 +5,7 @@ SQLite database and a Google Sheet.
 """
 # --- PART 1: IMPORTING OUR TOOLS ---
 import json
+import os
 import random
 import re
 import sqlite3
@@ -19,11 +20,8 @@ from bs4 import BeautifulSoup
 # --- PART 2: CONFIGURATION ---
 DATABASE_FILE = "ecommerce_sites.db"
 SEARCH_CONFIG_FILE = "search_phrases.json"
-GOOGLE_SHEET_NAME = "Scraped Leads"
+GOOGLE_SHEET_NAME = os.getenv("GSHEET_NAME")
 GOOGLE_CREDS_FILE = "credentials.json"
-import os # Add this to your imports at the top of the file
-
-# ... later in the CONFIGURATION section ...
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
 # List of domains to completely ignore.
