@@ -1,54 +1,79 @@
 {
-  "your_specialties_india": [
+  "womens_fashion": [
+    "\"women ethnic wear\" inurl:shop -amazon -flipkart -myntra -ajio",
+    "\"western dress for women\" inurl:store -amazon -flipkart -myntra",
+    "\"lehengas online\" inurl:store -amazon -flipkart -ajio -meesho",
+    "\"sarees for women\" inurl:shop -amazon -flipkart -snapdeal",
+    "\"gowns for women\" inurl:shop -flipkart -myntra -ajio",
+    "\"resort wear india\" inurl:shop -amazon -flipkart",
+    "\"loungewear for women\" inurl:store -flipkart -myntra",
+    "\"women innerwear\" inurl:store -amazon -myntra -ajio",
+    "\"independent fashion brand\" women india",
+    "\"sustainable innerwear\" store site:.in"
+  ],
+  "mens_fashion": [
+    "\"streetwear India\" inurl:shop -amazon -flipkart -myntra",
+    "\"winter jackets men\" inurl:shop -flipkart -myntra -amazon",
+    "\"oversized graphic tee\" \"payment in INR\""
+  ],
+  "kids_products": [
+    "\"organic kidswear\" india -amazon -firstcry",
+    "\"kids toys online\" inurl:store -amazon -flipkart -firstcry",
+    "\"crochet toys\" inurl:shop -amazon -etsy",
+    "\"outdoor toys kids\" inurl:shop -amazon -snapdeal"
+  ],
+  "accessories_jewelry": [
+    "\"men bracelet\" inurl:shop -amazon -flipkart -myntra",
+    "\"handmade jewelry\" inurl:store -amazon -flipkart -etsy",
+    "\"leather wallet for men\" inurl:store -amazon -flipkart",
+    "\"designer phone covers\" india -amazon -flipkart",
+    "\"optical frames online\" -lenskart -flipkart -amazon",
+    "\"minimalist watches\" store india",
+    "\"vegan leather bags\" site:.in"
+  ],
+  "home_kitchen": [
+    "\"home decor\" inurl:shop -amazon -flipkart -pepperfry -urbanladder",
+    "\"hanging lights\" inurl:store -flipkart -amazon -ikea",
+    "\"eco friendly home products\" inurl:shop -amazon",
+    "\"wall shelves\" inurl:store -flipkart -urbanladder -pepperfry",
+    "\"crockery sets\" inurl:shop -amazon -flipkart -ikea",
+    "\"kitchen tools\" inurl:store -flipkart -amazon",
     "\"minimalist home decor\" shop \"shipping in india\"",
     "\"boho wall art\" online store .com",
-    "\"men's streetwear\" \"new collection\" site:.in",
-    "\"oversized graphic tee\" \"payment in INR\"",
-    "\"independent fashion brand\" women india",
-    "\"sustainable innerwear\" store site:.in",
-    "\"unique kitchen gadgets\" shop india"
+    "\"bamboo home goods\" india"
   ],
-  "emerging_brands_india": [
-    "\"small-batch\" \"buy online\" site:.in",
-    "\"handcrafted leather goods\" store \"mumbai\"",
-    "\"sustainable gifts\" shop \"bangalore\"",
-    "\"zero-waste store\" \"delhi\"",
-    "\"organic dog treats\" \"pan india\"",
-    "\"gourmet hot sauce\" add to cart site:.in",
-    "\"bean-to-bar chocolate\" shop india"
+  "beauty_personal_care": [
+    "\"women perfume\" inurl:shop -amazon -myntra -nykaa",
+    "\"makeup set\" inurl:shop -amazon -flipkart -nykaa",
+    "\"hair dryer\" inurl:store -flipkart -snapdeal -amazon",
+    "\"hair wig india\" inurl:shop -flipkart -snapdeal",
+    "\"natural cosmetics\" shop site:.in",
+    "\"buy ayurvedic skincare online\""
   ],
-  "d2c_brands_india": [
+  "pet_supplies": [
+    "\"pet wear\" inurl:shop -amazon -flipkart",
+    "\"dog belts\" inurl:store -flipkart -snapdeal",
+    "\"organic dog treats\" \"pan india\""
+  ],
+  "gifts_and_other": [
+    "\"eco friendly products\" inurl:shop -amazon -flipkart",
+    "\"gift store online\" inurl:shop -amazon -flipkart -igp",
+    "\"personalized gifts\" site:.in",
+    "\"sustainable gifts\" shop \"bangalore\""
+  ],
+  "d2c_and_emerging": [
     "\"d2c fashion brand india\"",
     "\"direct to consumer home decor\" site:.in",
     "\"buy d2c snacks online\"",
-    "\"d2c beauty brand\" india"
+    "\"small-batch\" \"buy online\" site:.in",
+    "\"handcrafted\" store \"mumbai\"",
+    "\"zero-waste store\" \"delhi\""
   ],
-  "social_media_lingo": [
-    "\"shop our new arrivals\" .com india",
-    "\"official website\" \"shop now\" site:.in",
-    "\"link in bio to shop\" fashion india"
-  ],
-  "niche_materials_india": [
-    "\"vegan leather bags\" site:.in",
-    "\"bamboo home goods\" india",
-    "\"buy ayurvedic skincare online\"",
-    "\"handloom sarees online\""
-  ],
-  "new_lead_categories": [
-    "\"buy kids toys online\" site:.in",
-    "\"organic kids wear\" india",
-    "\"buy footwear online\" india",
-    "\"buy perfumes online\" india",
-    "\"natural cosmetics\" shop site:.in",
-    "\"designer mobile accessories\" online",
-    "\"buy pet wear online\" india",
-    "\"minimalist watches\" store india",
-    "\"buy gourmet food online\" site:.in",
-    "\"artisanal snacks\" india",
-    "\"buy eyeglasses online\" india",
-    "\"designer sunglasses\" shop site:.in",
-    "\"unique electronic gadgets\" shop",
-    "\"online gift shop\" india",
-    "\"personalized gifts\" site:.in"
+  "brand_philosophy_india": [
+    "\"slow fashion brand\" india",
+    "\"vocal for local\" online store",
+    "\"consciously crafted\" home decor site:.in",
+    "\"cruelty-free cosmetics\" shop india",
+    "\"plastic-free packaging\" shop online"
   ]
 }
