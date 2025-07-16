@@ -39,8 +39,7 @@
     "wall shelves inurl:store -flipkart -urbanladder -pepperfry",
     "crockery sets inurl:shop -amazon -flipkart -ikea",
     "kitchen tools inurl:store -flipkart -amazon",
-    "planters for balcony online site:.in -flipkart",
-    "home linen india inurl:store -amazon -flipkart"
+    "planters for balcony online site:.in -flipkart"
   ],
   "beauty_personal_care": [
     "women perfume inurl:shop -amazon -myntra -nykaa",
@@ -52,8 +51,7 @@
   "pet_supplies": [
     "pet wear inurl:shop -amazon -flipkart",
     "dog belts inurl:store -flipkart -snapdeal",
-    "eco friendly pet toys inurl:shop -flipkart -amazon",
-    "custom dog collars india inurl:store -amazon -flipkart"
+    "pet grooming kit india inurl:shop -flipkart -amazon"
   ],
   "gifts_and_other": [
     "eco friendly products inurl:shop -amazon -flipkart",
@@ -67,11 +65,5 @@
     "cruelty-free cosmetics shop india",
     "plastic-free packaging shop online",
     "zero waste store india inurl:shop"
-  ],
-  "fitness_nutrition": [
-    "vegan protein powder india inurl:shop -amazon -flipkart",
-    "fitness gear india inurl:store -amazon -flipkart",
-    "resistance bands india inurl:shop -flipkart -amazon",
-    "home workout equipment\" india inurl:store -amazon -flipkart"
   ]
 }
