@@ -2,11 +2,10 @@ name: Run Lead Scraper
 
 on:
   schedule:
-    # Runs at 02:00 UTC (around 7:30 AM IST)
+    # Runs twice daily
     - cron: '0 2 * * *'
-    # Runs at 14:00 UTC (around 7:30 PM IST)
     - cron: '0 14 * * *'
-  workflow_dispatch: # Allows you to run it manually from the Actions tab
+  workflow_dispatch: # Allows you to run it manually
 
 jobs:
   build:
@@ -33,3 +32,11 @@ jobs:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           GSHEET_NAME: ${{ secrets.GSHEET_NAME }}
         run: python discover_sites.py
+        
+      - name: Commit and push used phrases log
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add used_phrases_log.json
+          git commit -m "Update used phrases log" || echo "No changes to commit"
+          git push
