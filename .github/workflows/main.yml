@@ -5,11 +5,12 @@ on:
     # Runs twice daily
     - cron: '0 2 * * *'
     - cron: '0 14 * * *'
-  workflow_dispatch: # Allows you to run it manually
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -19,24 +20,42 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Cache pip dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install Dependencies
-        run: pip install gspread requests beautifulsoup4 phonenumbers
+        run: pip install -r requirements.txt
 
       - name: Create Google Credentials File
-        env:
-          GSHEET_CREDS: ${{ secrets.GSHEET_CREDS }}
-        run: echo "$GSHEET_CREDS" > credentials.json
+        run: |
+          echo "${{ secrets.GSHEET_CREDS }}" | base64 --decode > credentials.json
 
       - name: Run Python Script
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           GSHEET_NAME: ${{ secrets.GSHEET_NAME }}
         run: python discover_sites.py
-        
+
       - name: Commit and push used phrases log
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add used_phrases_log.json
-          git commit -m "Update used phrases log" || echo "No changes to commit"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update used phrases log"
+            git push
+          fi
+
+      - name: Upload logs if failed
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lead-discovery-log
+          path: lead_discovery.log
