@@ -1,58 +1,77 @@
 {
   "womens_fashion": [
-    "\"women ethnic wear\" inurl:shop -amazon -flipkart -myntra -ajio",
-    "\"western dress for women\" inurl:store -amazon -flipkart -myntra",
-    "\"lehengas online\" inurl:store -amazon -flipkart -ajio -meesho",
-    "\"sarees for women\" inurl:shop -amazon -flipkart -snapdeal",
-    "\"gowns for women\" inurl:shop -flipkart -myntra -ajio",
-    "\"resort wear india\" inurl:shop -amazon -flipkart",
-    "\"loungewear for women\" inurl:store -flipkart -myntra",
-    "\"women innerwear\" inurl:store -amazon -myntra -ajio"
+    "women ethnic wear inurl:shop -amazon -flipkart -myntra -ajio",
+    "western dress for women inurl:store -amazon -flipkart -myntra",
+    "lehengas online inurl:store -amazon -flipkart -ajio -meesho",
+    "sarees for women inurl:shop -amazon -flipkart -snapdeal",
+    "gowns for women inurl:shop -flipkart -myntra -ajio",
+    "resort wear india inurl:shop -amazon -flipkart",
+    "loungewear for women inurl:store -flipkart -myntra",
+    "women innerwear inurl:store -amazon -myntra -ajio",
+    "fusion wear for women buy online site:.in -flipkart -amazon",
+    "designer kurti collection inurl:shop -flipkart -amazon"
   ],
   "mens_fashion": [
-    "\"streetwear India\" inurl:shop -amazon -flipkart -myntra",
-    "\"winter jackets men\" inurl:shop -flipkart -myntra -amazon"
+    "streetwear India inurl:shop -amazon -flipkart -myntra",
+    "winter jackets men inurl:shop -flipkart -myntra -amazon",
+    "oversized tshirt men buy online -amazon -flipkart",
+    "casual shirts men inurl:shop site:.in -flipkart"
   ],
   "kids_products": [
-    "\"organic kidswear\" india -amazon -firstcry",
-    "\"kids toys online\" inurl:store -amazon -flipkart -firstcry",
-    "\"crochet toys\" inurl:shop -amazon -etsy",
-    "\"outdoor toys kids\" inurl:shop -amazon -snapdeal"
+    "organic kidswear india -amazon -firstcry",
+    "kids toys online inurl:store -amazon -flipkart -firstcry",
+    "crochet toys inurl:shop -amazon -etsy",
+    "outdoor toys kids inurl:shop -amazon -snapdeal",
+    "baby clothing sets india -flipkart -amazon"
   ],
   "accessories_jewelry": [
-    "\"men bracelet\" inurl:shop -amazon -flipkart -myntra",
-    "\"handmade jewelry\" inurl:store -amazon -flipkart -etsy",
-    "\"leather wallet for men\" inurl:store -amazon -flipkart",
-    "\"designer phone covers\" india -amazon -flipkart",
-    "\"optical frames online\" -lenskart -flipkart -amazon"
+    "men bracelet inurl:shop -amazon -flipkart -myntra",
+    "handmade jewelry inurl:store -amazon -flipkart -etsy",
+    "leather wallet for men inurl:store -amazon -flipkart",
+    "designer phone covers india -amazon -flipkart",
+    "optical frames online -lenskart -flipkart -amazon",
+    "boho earrings for women site:.in -amazon"
   ],
   "home_kitchen": [
-    "\"home decor\" inurl:shop -amazon -flipkart -pepperfry -urbanladder",
-    "\"hanging lights\" inurl:store -flipkart -amazon -ikea",
-    "\"eco friendly home products\" inurl:shop -amazon",
-    "\"wall shelves\" inurl:store -flipkart -urbanladder -pepperfry",
-    "\"crockery sets\" inurl:shop -amazon -flipkart -ikea",
-    "\"kitchen tools\" inurl:store -flipkart -amazon"
+    "home decor inurl:shop -amazon -flipkart -pepperfry -urbanladder",
+    "hanging lights inurl:store -flipkart -amazon -ikea",
+    "eco friendly home products inurl:shop -amazon",
+    "wall shelves inurl:store -flipkart -urbanladder -pepperfry",
+    "crockery sets inurl:shop -amazon -flipkart -ikea",
+    "kitchen tools inurl:store -flipkart -amazon",
+    "planters for balcony online site:.in -flipkart",
+    "home linen india inurl:store -amazon -flipkart"
   ],
   "beauty_personal_care": [
-    "\"women perfume\" inurl:shop -amazon -myntra -nykaa",
-    "\"makeup set\" inurl:shop -amazon -flipkart -nykaa",
-    "\"hair dryer\" inurl:store -flipkart -snapdeal -amazon",
-    "\"hair wig india\" inurl:shop -flipkart -snapdeal"
+    "women perfume inurl:shop -amazon -myntra -nykaa",
+    "makeup set inurl:shop -amazon -flipkart -nykaa",
+    "hair dryer inurl:store -flipkart -snapdeal -amazon",
+    "hair wig india inurl:shop -flipkart -snapdeal",
+    "herbal shampoo india -amazon -flipkart"
   ],
   "pet_supplies": [
-    "\"pet wear\" inurl:shop -amazon -flipkart",
-    "\"dog belts\" inurl:store -flipkart -snapdeal"
+    "pet wear inurl:shop -amazon -flipkart",
+    "dog belts inurl:store -flipkart -snapdeal",
+    "eco friendly pet toys inurl:shop -flipkart -amazon",
+    "custom dog collars india inurl:store -amazon -flipkart"
   ],
   "gifts_and_other": [
-    "\"eco friendly products\" inurl:shop -amazon -flipkart",
-    "\"gift store online\" inurl:shop -amazon -flipkart -igp"
+    "eco friendly products inurl:shop -amazon -flipkart",
+    "gift store online inurl:shop -amazon -flipkart -igp",
+    "custom gift box india site:.in -amazon"
   ],
   "brand_philosophy_india": [
-    "\"slow fashion brand\" india",
-    "\"vocal for local\" online store",
-    "\"consciously crafted\" home decor site:.in",
-    "\"cruelty-free cosmetics\" shop india",
-    "\"plastic-free packaging\" shop online"
+    "slow fashion brand india",
+    "vocal for local online store",
+    "consciously crafted home decor site:.in",
+    "cruelty-free cosmetics shop india",
+    "plastic-free packaging shop online",
+    "zero waste store india inurl:shop"
+  ],
+  "fitness_nutrition": [
+    "vegan protein powder india inurl:shop -amazon -flipkart",
+    "fitness gear india inurl:store -amazon -flipkart",
+    "resistance bands india inurl:shop -flipkart -amazon",
+    "home workout equipment\" india inurl:store -amazon -flipkart"
   ]
 }
