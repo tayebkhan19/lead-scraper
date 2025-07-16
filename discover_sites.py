@@ -1,6 +1,6 @@
 """
-This script discovers e-commerce websites, analyzes them for contact info,
-and saves the results to a Google Sheet, using the sheet to prevent duplicates.
+This script discovers Indian e-commerce websites, analyzes them with a
+multi-layer verification system, and saves the results to a Google Sheet.
 """
 # --- PART 1: IMPORTING OUR TOOLS ---
 import json
@@ -21,25 +21,24 @@ GOOGLE_SHEET_NAME = os.getenv("GSHEET_NAME", "Scraped Leads")
 GOOGLE_CREDS_FILE = "credentials.json"
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
-# (All keyword lists are unchanged)
+# --- REFINEMENT KEYWORDS ---
 BLACKLISTED_DOMAINS = [
-    'amazon.com', 'amazon.in', 'flipkart.com', 'myntra.com', 'ajio.com', 'meesho.com',
-    'nykaa.com', 'snapdeal.com', 'tatacliq.com', 'jiomart.com', 'pepperfry.com',
-    'limeroad.com', 'walmart.com', 'ebay.com', 'etsy.com', 'pinterest.com',
-    'facebook.com', 'instagram.com', 'linkedin.com', 'twitter.com', 'youtube.com'
+    'amazon.com', 'amazon.in', 'flipkart.com', 'myntra.com', 'ajio.com',
+    'meesho.com', 'nykaa.com', 'snapdeal.com', 'tatacliq.com', 'jiomart.com',
+    'pepperfry.com', 'limeroad.com', 'walmart.com', 'ebay.com', 'etsy.com',
+    'pinterest.com', 'facebook.com', 'instagram.com', 'linkedin.com',
+    'twitter.com', 'youtube.com', 'marketresearch.com', 'dataintelo.com'
 ]
-NEGATIVE_KEYWORDS = ['/blog/', '/news/', '/docs/', '/forum/', '/support/', 'whiskey', 'whisky', 'liquor', 'wine', 'beer', 'alcohol']
+NEGATIVE_PATH_KEYWORDS = ['blog', 'news', 'docs', 'forum', 'support', 'publication']
+NEGATIVE_CONTENT_KEYWORDS = [
+    'whiskey', 'whisky', 'liquor', 'wine', 'beer', 'alcohol',
+    'market research', 'consulting firm', 'business intelligence'
+]
 INDIAN_TECH_KEYWORDS = ['razorpay', 'payu', 'instamojo', 'shiprocket', 'delhivery', 'blue dart']
-POLICY_PAGE_HINTS = ['shipping', 'policy', 'terms', 'about', 'legal', 'story']
-INDIA_LOCATION_KEYWORDS = {
-    'strong': ['made in india', 'cash on delivery', 'cod', 'shipping in india', 'pan india', 'mumbai', 'delhi', 'bangalore', 'bengaluru', 'chennai', 'kolkata', 'hyderabad', 'pune'],
-    'weak': ['india']
-}
+POLICY_PAGE_HINTS = ['contact', 'about', 'legal', 'policy', 'shipping', 'terms']
 SOCIAL_MEDIA_DOMAINS = ['facebook.com', 'instagram.com', 'twitter.com', 'linkedin.com', 'youtube.com']
 
-
 # --- PART 3: SETUP AND UTILITY FUNCTIONS ---
-
 def setup_google_sheet():
     """Connects to Google Sheets and sets up the header row."""
     try:
@@ -59,80 +58,116 @@ def setup_google_sheet():
         return None
 
 def get_existing_urls_from_sheet(worksheet):
-    """NEW: Reads all URLs from column A of the sheet to use for duplicate checking."""
+    """Reads all URLs from the sheet to use for duplicate checking."""
     try:
-        print("Fetching existing URLs from Google Sheet to prevent duplicates...")
+        print("Fetching existing URLs from Google Sheet...")
         urls = worksheet.col_values(1)
-        # Return a set for fast lookups, skipping the header
         return set(urls[1:])
     except Exception as e:
         print(f"❌ Could not fetch existing URLs from sheet. Error: {e}")
         return set()
 
 def clean_and_validate_url(url):
-    # (This function is unchanged)
+    """Cleans URL to its base domain and checks against blacklists."""
     try:
-        parsed = urlparse(url)
+        match = re.search(r'https?://[^\s?#]+', url)
+        if not match: return None
+        url_to_parse = match.group(0)
+
+        if any(keyword in url_to_parse for keyword in NEGATIVE_PATH_KEYWORDS):
+            return None
+
+        parsed = urlparse(url_to_parse)
         cleaned_url = urlunparse((parsed.scheme, parsed.netloc, '', '', '', ''))
         domain = parsed.netloc.replace('www.', '')
-        if any(blacklisted in domain for blacklisted in BLACKLISTED_DOMAINS) or \
-           any(keyword in url for keyword in NEGATIVE_KEYWORDS):
+        
+        if any(blacklisted in domain for blacklisted in BLACKLISTED_DOMAINS):
             return None
         return cleaned_url
     except Exception:
         return None
 
-
 # --- PART 4: SAVING FUNCTIONS ---
-
-def save_to_gsheet(worksheet, url, lead_data):
-    """Saves a new row, including social links, to the connected Google Sheet."""
+def save_to_gsheet(worksheet, lead_data):
+    """Saves a new row to the connected Google Sheet."""
     try:
         timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+        socials = lead_data.get("social_links", {})
         worksheet.append_row([
-            url,
-            lead_data['email'],
-            lead_data['phone'],
-            lead_data['social_links'].get('facebook', 'Not Found'),
-            lead_data['social_links'].get('instagram', 'Not Found'),
-            lead_data['social_links'].get('twitter', 'Not Found'),
-            lead_data['social_links'].get('linkedin', 'Not Found'),
+            lead_data.get("URL", "Not Found"),
+            lead_data.get("Email", "Not Found"),
+            lead_data.get("Phone Number", "Not Found"),
+            socials.get("facebook", "Not Found"),
+            socials.get("instagram", "Not Found"),
+            socials.get("twitter", "Not Found"),
+            socials.get("linkedin", "Not Found"),
             timestamp
         ])
-        print(f"✅  Saved to Google Sheet: {url}")
+        print(f"✅  Saved to Google Sheet: {lead_data.get('URL')}")
     except gspread.exceptions.APIError as e:
         print(f"❌ Could not write to Google Sheet. API Error: {e}")
 
-
 # --- PART 5: THE WEBSITE ANALYZER ---
-# (analyze_site and its helper functions are unchanged)
 def analyze_site(url):
+    """Analyzes a URL with the final, strictest verification rules."""
     print(f"   Analyzing {url}...")
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(url, headers=headers, timeout=10)
+        response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status()
         html_text = response.text.lower()
         soup = BeautifulSoup(response.text, 'html.parser')
-        if not ('cart' in html_text and ('shop' in html_text or 'checkout' in html_text)): return None
+
+        # 1. Strict E-commerce Element Check
+        is_ecommerce = False
+        if len(soup.find_all(attrs={'class': re.compile(r'product', re.IGNORECASE)})) > 3:
+             is_ecommerce = True
+        elif soup.find(['button', 'a', 'input'], text=re.compile(r'add to cart|buy now', re.IGNORECASE)):
+            is_ecommerce = True
+        if not is_ecommerce:
+            print("   [FAIL] Lacks multiple product elements or a clear 'add to cart' button.")
+            return None
+
+        # 2. Negative Content Check
+        if any(keyword in html_text for keyword in NEGATIVE_CONTENT_KEYWORDS):
+            print("   [FAIL] Found negative content keyword (e.g., alcohol, market research).")
+            return None
+
+        # 3. Strict Location Check
         is_confirmed_indian = False
-        if any(keyword in html_text for keyword in INDIAN_TECH_KEYWORDS): is_confirmed_indian = True
-        if not is_confirmed_indian:
-            for hint in POLICY_PAGE_HINTS:
-                page_link = soup.find('a', href=re.compile(hint), text=re.compile(hint, re.IGNORECASE))
-                if page_link:
-                    page_url = urljoin(url, page_link['href'])
+        page_html_to_check = html_text
+        for hint in POLICY_PAGE_HINTS:
+            page_link = soup.find('a', href=re.compile(hint), text=re.compile(hint, re.IGNORECASE))
+            if page_link:
+                page_url = urljoin(url, page_link['href'])
+                try:
                     page_response = requests.get(page_url, headers=headers, timeout=10)
-                    page_html = page_response.text.lower()
-                    if any(keyword in page_html for keyword in INDIA_LOCATION_KEYWORDS['strong']):
-                        is_confirmed_indian = True
-                        break
-        if not is_confirmed_indian: return None
-        print("   [Success! It's a confirmed Indian e-commerce site.]")
-        lead_data = {"email": _extract_email(html_text), "phone": _extract_phone_number(response.text, soup), "social_links": _extract_social_links(soup)}
+                    page_html_to_check = page_response.text.lower()
+                    print(f"   [INFO] Found and checking '{hint}' page for definitive location proof.")
+                    break
+                except requests.exceptions.RequestException: continue
+        
+        if re.search(r'\b(pincode|pin code|pin)[\s:-]*\d{6}\b', page_html_to_check):
+             print("   [PASS] Found a 6-digit PIN code with context.")
+             is_confirmed_indian = True
+        elif any(keyword in html_text for keyword in INDIAN_TECH_KEYWORDS):
+             print("   [PASS] Found Indian tech partner.")
+             is_confirmed_indian = True
+
+        if not is_confirmed_indian:
+            print("   [FAIL] Could not confirm a physical Indian location or tech partner.")
+            return None
+
+        print(f"   [Success! Found a valid lead: {url}]")
+        lead_data = {
+            "URL": url,
+            "Email": _extract_email(html_text),
+            "Phone Number": _extract_phone_number(response.text, soup),
+            "social_links": _extract_social_links(soup)
+        }
         return lead_data
     except requests.exceptions.RequestException as e:
-        print(f"   [Could not access the site. Error: {e}]")
+        print(f"   [FAIL] Could not access the site: {e}")
         return None
 
 def _extract_email(text):
@@ -173,11 +208,8 @@ def main():
 
     print("🚀 Starting E-commerce Site Discovery Tool...")
     worksheet = setup_google_sheet()
-    if not worksheet:
-        print("Aborting script as Google Sheet could not be accessed.")
-        return
+    if not worksheet: print("Aborting script."); return
 
-    # NEW: Get existing URLs from the sheet to prevent duplicates
     existing_urls = get_existing_urls_from_sheet(worksheet)
     print(f"Found {len(existing_urls)} existing URLs in the sheet.")
 
@@ -200,27 +232,18 @@ def main():
                     if not raw_url: continue
 
                     base_url = clean_and_validate_url(raw_url)
-                    if not base_url: continue
-
-                    # NEW: Check against the set of URLs from the sheet
-                    if base_url in existing_urls:
+                    if not base_url or base_url in existing_urls:
                         continue
-
-                    if any(keyword in raw_url for keyword in NEGATIVE_KEYWORDS):
-                        print(f"   [Found blog link, analyzing main site: {base_url}]")
 
                     analysis_result = analyze_site(base_url)
                     if analysis_result:
-                        # Add to sheet and also to our in-memory set
-                        save_to_gsheet(worksheet, base_url, analysis_result)
+                        save_to_gsheet(worksheet, analysis_result)
                         existing_urls.add(base_url)
-
                     time.sleep(random.randint(2, 5))
             except Exception as e:
                 print(f"An unexpected error occurred: {e}. Waiting...")
-                time.sleep(30)
+                time.sleep(60)
     print("\n🎉 Discovery complete!")
-
 
 if __name__ == "__main__":
     main()
