@@ -156,6 +156,7 @@ def save_to_gsheet(worksheet, lead_data):
     except gspread.exceptions.APIError as e:
         logging.error(f"❌ Could not write to Google Sheet: {e}")
 
+
 # --- WEBSITE ANALYZER ---
 def analyze_site(url):
     """Analyzes a URL with a flexible scoring system to identify leads."""
@@ -164,22 +165,33 @@ def analyze_site(url):
         headers = {'User-Agent': 'Mozilla/5.0'}
         response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status()
-        html_text = response.text.lower()
+        html_text = unquote(response.text.lower())  # decode URLs if encoded
         soup = BeautifulSoup(response.text, 'html.parser')
         score = 0
-        
+
         # --- E-commerce Verification ---
         is_ecommerce = False
-        if soup.find(['button', 'a', 'input'], text=re.compile(r'add to cart|buy now|shop now', re.IGNORECASE)): is_ecommerce = True
-        elif len(soup.find_all(attrs={'class': re.compile(r'product|item|grid|listing', re.IGNORECASE)})) >= 3: is_ecommerce = True
-        elif '"@type":"product"' in html_text: is_ecommerce = True
-        elif any(tag in html_text for tag in ['shopify', 'woocommerce', 'cdn.shopify.com']): is_ecommerce = True
-        if is_ecommerce: score += 1
-        else: logging.info("   [FAIL] No strong e-commerce signals found."); return None
+        if soup.find(['button', 'a', 'input'], text=re.compile(r'add to cart|buy now|shop now', re.IGNORECASE)):
+            is_ecommerce = True
+        elif len(soup.find_all(attrs={'class': re.compile(r'product|item|grid|listing', re.IGNORECASE)})) >= 3:
+            is_ecommerce = True
+        elif '"@type":"product"' in html_text:
+            is_ecommerce = True
+        elif any(tag in html_text for tag in ['shopify', 'woocommerce', 'cdn.shopify.com']):
+            is_ecommerce = True
+        elif any(tag in str(soup.head) for tag in ['cdn.shopify.com', 'woocommerce']):
+            is_ecommerce = True
+
+        if is_ecommerce:
+            score += 1
+        else:
+            logging.info("   [FAIL] No strong e-commerce signals found.")
+            return None
 
         # --- Negative Keyword Filter ---
         if any(keyword in html_text for keyword in NEGATIVE_CONTENT_KEYWORDS):
-            logging.warning(f"   [FAIL] Contains blacklisted content keyword."); return None
+            logging.warning(f"   [FAIL] Contains blacklisted content keyword.")
+            return None
 
         # --- Indian Location Verification ---
         is_high_confidence_indian = False
@@ -193,32 +205,57 @@ def analyze_site(url):
                     page_html_to_check = page_response.text.lower()
                     logging.info(f"   [INFO] Checking '{hint}' page for location...")
                     break
-                except requests.exceptions.RequestException: continue
-        
+                except requests.exceptions.RequestException:
+                    continue
+
         if re.search(r'gstin\s*[:\-]?\s*[0-9A-Z]{15}', page_html_to_check):
-             logging.info("   [PASS] Found GSTIN number."); is_high_confidence_indian = True
+            logging.info("   [PASS] Found GSTIN number.")
+            is_high_confidence_indian = True
         elif re.search(r'\b(pincode|pin code|pin)[\s:-]*\d{6}\b', page_html_to_check):
-             logging.info("   [PASS] Found valid PIN code."); is_high_confidence_indian = True
+            logging.info("   [PASS] Found valid PIN code.")
+            is_high_confidence_indian = True
         elif any(keyword in html_text for keyword in INDIAN_TECH_KEYWORDS):
-             logging.info("   [PASS] Detected Indian payment/shipping tech."); is_high_confidence_indian = True
+            logging.info("   [PASS] Detected Indian payment/shipping tech.")
+            is_high_confidence_indian = True
         elif '.in' in urlparse(url).netloc:
-             logging.info("   [PASS] Uses .in domain."); is_high_confidence_indian = True
-        
-        if is_high_confidence_indian: score += 1
-        elif "india" in html_text: logging.info("   [INFO] Mentions India in content."); score += 0.5
+            logging.info("   [PASS] Uses .in domain.")
+            is_high_confidence_indian = True
+
+        if is_high_confidence_indian:
+            score += 1
+        elif "india" in html_text:
+            logging.info("   [INFO] Mentions India in content.")
+            score += 0.5
+
+        # --- Fallback if score is borderline ---
+        if not is_high_confidence_indian and "india" in html_text:
+            score += 0.3
+
+        if 1.0 <= score < 1.5:
+            try:
+                os.makedirs("debug_html", exist_ok=True)
+                with open(f"debug_html/{urlparse(url).netloc}.html", "w", encoding="utf-8") as f:
+                    f.write(html_text)
+            except Exception as e:
+                logging.warning(f"   [DEBUG] Failed to save borderline HTML: {e}")
 
         if score < 1.5:
-            logging.warning(f"   [FAIL] Final score {score}/2 is too low."); return None
+            logging.warning(f"   [FAIL] Final score {score}/2 is too low.")
+            return None
 
         logging.info(f"   ✅ Valid Indian e-commerce lead found (Score: {score}/2): {url}")
         lead_data = {
-            "URL": url, "Email": _extract_email(html_text),
+            "URL": url,
+            "Email": _extract_email(html_text),
             "Phone Number": _extract_phone_number(response.text),
             "social_links": _extract_social_links(soup)
         }
         return lead_data
+
     except requests.exceptions.RequestException as e:
-        logging.warning(f"   [FAIL] Could not access the site: {e}"); return None
+        logging.warning(f"   [FAIL] Could not access the site: {e}")
+        return None
+
 
 def _extract_email(text):
     match = re.search(r'[\w\.-]+@[\w\.-]+\.\w+', text)
