@@ -1,0 +1,4 @@
+gspread
+requests
+beautifulsoup4
+phonenumbers
