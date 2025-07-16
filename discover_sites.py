@@ -268,7 +268,7 @@ if __name__ == "__main__":
         for phrase in phrases:
             logging.info(f"🔍 Searching API: \"{phrase}\"")
             api_url = "https://google.serper.dev/search"
-            payload = json.dumps({"q": phrase, "gl": "in"}) # Geofence to India
+            payload = json.dumps({"q": phrase, "gl": "in", "num": 100}) # Geofence to India
             headers = {'X-API-KEY': SERPER_API_KEY, 'Content-Type': 'application/json'}
             try:
                 response = requests.post(api_url, headers=headers, data=payload, timeout=10)
