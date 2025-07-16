@@ -7,14 +7,11 @@
     "\"gowns for women\" inurl:shop -flipkart -myntra -ajio",
     "\"resort wear india\" inurl:shop -amazon -flipkart",
     "\"loungewear for women\" inurl:store -flipkart -myntra",
-    "\"women innerwear\" inurl:store -amazon -myntra -ajio",
-    "\"independent fashion brand\" women india",
-    "\"sustainable innerwear\" store site:.in"
+    "\"women innerwear\" inurl:store -amazon -myntra -ajio"
   ],
   "mens_fashion": [
     "\"streetwear India\" inurl:shop -amazon -flipkart -myntra",
-    "\"winter jackets men\" inurl:shop -flipkart -myntra -amazon",
-    "\"oversized graphic tee\" \"payment in INR\""
+    "\"winter jackets men\" inurl:shop -flipkart -myntra -amazon"
   ],
   "kids_products": [
     "\"organic kidswear\" india -amazon -firstcry",
@@ -27,9 +24,7 @@
     "\"handmade jewelry\" inurl:store -amazon -flipkart -etsy",
     "\"leather wallet for men\" inurl:store -amazon -flipkart",
     "\"designer phone covers\" india -amazon -flipkart",
-    "\"optical frames online\" -lenskart -flipkart -amazon",
-    "\"minimalist watches\" store india",
-    "\"vegan leather bags\" site:.in"
+    "\"optical frames online\" -lenskart -flipkart -amazon"
   ],
   "home_kitchen": [
     "\"home decor\" inurl:shop -amazon -flipkart -pepperfry -urbanladder",
@@ -37,37 +32,21 @@
     "\"eco friendly home products\" inurl:shop -amazon",
     "\"wall shelves\" inurl:store -flipkart -urbanladder -pepperfry",
     "\"crockery sets\" inurl:shop -amazon -flipkart -ikea",
-    "\"kitchen tools\" inurl:store -flipkart -amazon",
-    "\"minimalist home decor\" shop \"shipping in india\"",
-    "\"boho wall art\" online store .com",
-    "\"bamboo home goods\" india"
+    "\"kitchen tools\" inurl:store -flipkart -amazon"
   ],
   "beauty_personal_care": [
     "\"women perfume\" inurl:shop -amazon -myntra -nykaa",
     "\"makeup set\" inurl:shop -amazon -flipkart -nykaa",
     "\"hair dryer\" inurl:store -flipkart -snapdeal -amazon",
-    "\"hair wig india\" inurl:shop -flipkart -snapdeal",
-    "\"natural cosmetics\" shop site:.in",
-    "\"buy ayurvedic skincare online\""
+    "\"hair wig india\" inurl:shop -flipkart -snapdeal"
   ],
   "pet_supplies": [
     "\"pet wear\" inurl:shop -amazon -flipkart",
-    "\"dog belts\" inurl:store -flipkart -snapdeal",
-    "\"organic dog treats\" \"pan india\""
+    "\"dog belts\" inurl:store -flipkart -snapdeal"
   ],
   "gifts_and_other": [
     "\"eco friendly products\" inurl:shop -amazon -flipkart",
-    "\"gift store online\" inurl:shop -amazon -flipkart -igp",
-    "\"personalized gifts\" site:.in",
-    "\"sustainable gifts\" shop \"bangalore\""
-  ],
-  "d2c_and_emerging": [
-    "\"d2c fashion brand india\"",
-    "\"direct to consumer home decor\" site:.in",
-    "\"buy d2c snacks online\"",
-    "\"small-batch\" \"buy online\" site:.in",
-    "\"handcrafted\" store \"mumbai\"",
-    "\"zero-waste store\" \"delhi\""
+    "\"gift store online\" inurl:shop -amazon -flipkart -igp"
   ],
   "brand_philosophy_india": [
     "\"slow fashion brand\" india",
