@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 60 # A 1-hour timeout should be plenty for a batch of 30
+    timeout-minutes: 60
 
     steps:
       - name: Checkout Repo
@@ -37,7 +37,8 @@ jobs:
 
       - name: Run Python Script
         env:
-          SERPER_API_KEYS: ${{ secrets.SERPER_API_KEYS }}
+          # MODIFIED: Use the singular secret name
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           GSHEET_NAME: ${{ secrets.GSHEET_NAME }}
         run: python discover_sites.py
 
