@@ -1,150 +1,490 @@
-{
-  "womens_fashion": [
-    "women ethnic wear inurl:shop -amazon -flipkart -myntra -ajio",
-    "western dress for women inurl:store -amazon -flipkart -myntra",
-    "lehengas online inurl:store -amazon -flipkart -ajio -meesho",
-    "sarees for women inurl:shop -amazon -flipkart -snapdeal",
-    "gowns for women inurl:shop -flipkart -myntra -ajio",
-    "resort wear india inurl:shop -amazon -flipkart",
-    "loungewear for women inurl:store -flipkart -myntra",
-    "women innerwear inurl:store -amazon -myntra -ajio",
-    "fusion wear for women buy online site:.in -flipkart -amazon",
-    "designer kurti collection inurl:shop -flipkart -amazon",
-    "boho dresses for women India inurl:store -amazon -flipkart -myntra",
-    "chikankari kurti online India inurl:shop -amazon -flipkart -ajio",
-    "co-ord sets women online inurl:shop -flipkart -amazon",
-    "floral lehengas online shopping India inurl:shop -amazon -myntra",
-    "trendy tops for women India inurl:store -myntra -flipkart",
-    "minimalist fashion for women India inurl:shop -amazon -flipkart",
-    "handcrafted sarees India inurl:store -amazon -flipkart -meesho",
-    "plus size ethnic wear for women inurl:shop -flipkart -amazon",
-    "printed maxi dresses buy online inurl:store -amazon -myntra -ajio",
-    "Indo-western outfits for women inurl:store -flipkart -amazon",
-    "draped saree for women online site:.in -amazon -flipkart",
-    "designer blouses for sarees online inurl:store -flipkart -ajio"
-  ],
-  "mens_fashion": [
-    "streetwear India inurl:shop -amazon -flipkart -myntra",
-    "winter jackets men inurl:shop -flipkart -myntra -amazon",
-    "oversized tshirt men buy online -amazon -flipkart",
-    "casual shirts men inurl:shop site:.in -flipkart",
-    "printed shirts for men inurl:shop -flipkart -amazon -myntra",
-    "co-ord sets for men India inurl:store -flipkart -amazon",
-    "buy kurta pajama men online site:.in -flipkart -amazon -ajio",
-    "men's denim jackets buy online inurl:shop -flipkart -amazon",
-    "trendy men hoodies India inurl:store -myntra -flipkart -amazon",
-    "summer shirts for men inurl:shop -flipkart -amazon -ajio",
-    "cotton pants for men India buy online -flipkart -amazon -snapdeal",
-    "men oversized sweatshirts inurl:shop -amazon -flipkart -myntra",
-    "buy printed shorts men site:.in inurl:shop -amazon -flipkart",
-    "street style men India online shopping -flipkart -amazon",
-    "casual ethnic wear men online India inurl:store -amazon -myntra",
-    "graphic tees for men inurl:shop site:.in -flipkart -amazon -ajio",
-    "relaxed fit trousers men inurl:store -flipkart -amazon -myntra",
-    "men's casual blazers online India inurl:shop -flipkart -amazon",
-    "cozy winterwear for men site:.in inurl:store -flipkart -amazon"
-  ],
-  "kids_fashion": [
-    "kids ethnic wear online India inurl:shop -amazon -flipkart",
-    "trendy kidswear brands India inurl:store -flipkart -amazon -myntra",
-    "baby girl frocks online inurl:shop site:.in -amazon -flipkart",
-    "boys kurta pyjama online shopping India inurl:store -flipkart -amazon",
-    "kids cotton night suits inurl:shop -flipkart -myntra -amazon",
-    "co-ord sets for girls India inurl:store -amazon -flipkart",
-    "baby boy party wear clothes inurl:shop -flipkart -amazon",
-    "organic clothing for kids India inurl:store -amazon -myntra",
-    "handmade kids dresses India inurl:shop -flipkart -amazon",
-    "designer kidswear online India inurl:store -myntra -flipkart -amazon"
-  ],
-  "womens_accessories": [
-    "designer handbags for women India inurl:shop -amazon -flipkart -ajio",
-    "fashion sunglasses for women India inurl:store -amazon -flipkart",
-    "handcrafted clutches for women inurl:shop -myntra -flipkart -amazon",
-    "scarves and stoles for women inurl:shop site:.in -amazon -flipkart",
-    "women's belts fashion online India inurl:store -flipkart -amazon",
-    "trendy hair accessories for women inurl:shop -amazon -flipkart"
-  ],
-  "mens_accessories": [
-    "men's leather belts India inurl:shop -amazon -flipkart -myntra",
-    "wallets for men buy online inurl:store -flipkart -amazon",
-    "fashion sunglasses men India inurl:shop -flipkart -amazon",
-    "trendy watches for men inurl:shop site:.in -flipkart -amazon",
-    "men's neck chains buy online inurl:store -amazon -flipkart",
-    "mens beanie caps online India inurl:shop -flipkart -amazon",
-    "cufflinks and ties for men online inurl:store -amazon -flipkart",
-    "men's rings fashion buy online inurl:shop -amazon -flipkart",
-    "bags for men India buy online inurl:store -flipkart -amazon"
-  ],
-  "kids_accessories": [
-    "kids sunglasses online India inurl:shop -amazon -flipkart",
-    "hair accessories for girls India inurl:store -amazon -flipkart",
-    "stylish caps for boys buy online inurl:shop -flipkart -amazon",
-    "kids bags and backpacks online India inurl:store -myntra -flipkart",
-    "cartoon character watches for kids inurl:shop -flipkart -amazon",
-    "baby mittens and caps set online inurl:shop -flipkart -amazon",
-    "handmade accessories for kids India inurl:store -amazon -flipkart",
-    "designer kids hairbands online inurl:shop -flipkart -amazon",
-    "cute wallets for kids India buy online inurl:store -amazon -flipkart"
-  ],
-  "accessories_jewelry": [
-    "men bracelet inurl:shop -amazon -flipkart -myntra",
-    "handmade jewelry inurl:store -amazon -flipkart -etsy",
-    "leather wallet for men inurl:store -amazon -flipkart",
-    "designer phone covers india -amazon -flipkart",
-    "optical frames online -lenskart -flipkart -amazon",
-    "boho earrings for women site:.in -amazon"
-  ],
-  "home_decor": [
-    "buy home decor online India inurl:shop -amazon -flipkart -myntra",
-    "handcrafted home decor brands India inurl:store -flipkart -amazon",
-    "wall art for living room India inurl:shop -amazon -flipkart",
-    "designer cushion covers online India inurl:store -flipkart -amazon",
-    "scented candles buy online India inurl:shop -amazon -flipkart",
-    "luxury bedsheets India online inurl:store -flipkart -amazon",
-    "handmade planters online India inurl:shop -amazon -flipkart",
-    "boho home decor items India inurl:store -flipkart -amazon",
-    "buy table lamps online India inurl:shop -flipkart -amazon -ajio",
-    "macrame wall hangings India inurl:store -amazon -flipkart",
-    "premium rugs and carpets India inurl:shop -flipkart -amazon",
-    "ceramic vases buy online India inurl:store -amazon -flipkart",
-    "eco-friendly home decor brands India inurl:shop -flipkart -amazon",
-    "unique wall clocks India online inurl:store -amazon -flipkart",
-    "vintage home decor India inurl:shop site:.in -flipkart -amazon"
-  ],
-  "home_kitchen": [
-    "home decor inurl:shop -amazon -flipkart -pepperfry -urbanladder",
-    "hanging lights inurl:store -flipkart -amazon -ikea",
-    "eco friendly home products inurl:shop -amazon",
-    "wall shelves inurl:store -flipkart -urbanladder -pepperfry",
-    "crockery sets inurl:shop -amazon -flipkart -ikea",
-    "kitchen tools inurl:store -flipkart -amazon",
-    "planters for balcony online site:.in -flipkart"
-  ],
-  "pet_supplies": [
-    "pet wear inurl:shop -amazon -flipkart",
-    "dog belts inurl:store -flipkart -snapdeal",
-    "pet grooming kit india inurl:shop -flipkart -amazon"
-  ],
-  "gifts_and_other": [
-    "eco friendly products inurl:shop -amazon -flipkart",
-    "gift store online inurl:shop -amazon -flipkart -igp",
-    "custom gift box india site:.in -amazon"
-  ],
-  "brand_philosophy_india": [
-    "slow fashion brand india",
-    "vocal for local online store",
-    "consciously crafted home decor site:.in"
-  ],
-  "bags": [
-    "designer handbags for women India inurl:shop -amazon -flipkart -myntra",
-    "leather sling bags women online inurl:store -flipkart -amazon",
-    "handcrafted tote bags India inurl:shop -amazon -flipkart -ajio",
-    "canvas backpacks for men India buy online inurl:store -amazon -flipkart",
-    "mens laptop bags stylish India inurl:shop site:.in -amazon -flipkart",
-    "duffle bags for gym men inurl:store -flipkart -amazon -myntra",
-    "school bags for kids online India inurl:shop -amazon -flipkart",
-    "cartoon print backpacks kids India inurl:store -amazon -flipkart",
-    "eco-friendly jute bags India inurl:shop -flipkart -amazon",
-    "travel bags for women India inurl:store -amazon -flipkart"
-  ]
-}
+[
+  {
+    "phrase": "women ethnic wear inurl:shop -amazon -flipkart -myntra -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "western dress for women inurl:store -amazon -flipkart -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "lehengas online inurl:store -amazon -flipkart -ajio -meesho",
+    "page": 1
+  },
+  {
+    "phrase": "sarees for women inurl:shop -amazon -flipkart -snapdeal",
+    "page": 1
+  },
+  {
+    "phrase": "gowns for women inurl:shop -flipkart -myntra -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "resort wear india inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "loungewear for women inurl:store -flipkart -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "women innerwear inurl:store -amazon -myntra -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "fusion wear for women buy online site:.in -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "designer kurti collection inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "boho dresses for women India inurl:store -amazon -flipkart -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "chikankari kurti online India inurl:shop -amazon -flipkart -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "co-ord sets women online inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "floral lehengas online shopping India inurl:shop -amazon -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "trendy tops for women India inurl:store -myntra -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "minimalist fashion for women India inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "handcrafted sarees India inurl:store -amazon -flipkart -meesho",
+    "page": 1
+  },
+  {
+    "phrase": "plus size ethnic wear for women inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "printed maxi dresses buy online inurl:store -amazon -myntra -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "Indo-western outfits for women inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "draped saree for women online site:.in -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "designer blouses for sarees online inurl:store -flipkart -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "streetwear India inurl:shop -amazon -flipkart -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "winter jackets men inurl:shop -flipkart -myntra -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "oversized tshirt men buy online -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "casual shirts men inurl:shop site:.in -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "printed shirts for men inurl:shop -flipkart -amazon -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "co-ord sets for men India inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "buy kurta pajama men online site:.in -flipkart -amazon -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "men's denim jackets buy online inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "trendy men hoodies India inurl:store -myntra -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "summer shirts for men inurl:shop -flipkart -amazon -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "cotton pants for men India buy online -flipkart -amazon -snapdeal",
+    "page": 1
+  },
+  {
+    "phrase": "men oversized sweatshirts inurl:shop -amazon -flipkart -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "buy printed shorts men site:.in inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "street style men India online shopping -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "casual ethnic wear men online India inurl:store -amazon -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "graphic tees for men inurl:shop site:.in -flipkart -amazon -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "relaxed fit trousers men inurl:store -flipkart -amazon -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "men's casual blazers online India inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "cozy winterwear for men site:.in inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "kids ethnic wear online India inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "trendy kidswear brands India inurl:store -flipkart -amazon -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "baby girl frocks online inurl:shop site:.in -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "boys kurta pyjama online shopping India inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "kids cotton night suits inurl:shop -flipkart -myntra -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "co-ord sets for girls India inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "baby boy party wear clothes inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "organic clothing for kids India inurl:store -amazon -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "handmade kids dresses India inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "designer kidswear online India inurl:store -myntra -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "designer handbags for women India inurl:shop -amazon -flipkart -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "fashion sunglasses for women India inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "handcrafted clutches for women inurl:shop -myntra -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "scarves and stoles for women inurl:shop site:.in -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "women's belts fashion online India inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "trendy hair accessories for women inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "men's leather belts India inurl:shop -amazon -flipkart -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "wallets for men buy online inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "fashion sunglasses men India inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "trendy watches for men inurl:shop site:.in -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "men's neck chains buy online inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "mens beanie caps online India inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "cufflinks and ties for men online inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "men's rings fashion buy online inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "bags for men India buy online inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "kids sunglasses online India inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "hair accessories for girls India inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "stylish caps for boys buy online inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "kids bags and backpacks online India inurl:store -myntra -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "cartoon character watches for kids inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "baby mittens and caps set online inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "handmade accessories for kids India inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "designer kids hairbands online inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "cute wallets for kids India buy online inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "men bracelet inurl:shop -amazon -flipkart -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "handmade jewelry inurl:store -amazon -flipkart -etsy",
+    "page": 1
+  },
+  {
+    "phrase": "leather wallet for men inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "designer phone covers india -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "optical frames online -lenskart -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "boho earrings for women site:.in -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "buy home decor online India inurl:shop -amazon -flipkart -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "handcrafted home decor brands India inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "wall art for living room India inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "designer cushion covers online India inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "scented candles buy online India inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "luxury bedsheets India online inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "handmade planters online India inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "boho home decor items India inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "buy table lamps online India inurl:shop -flipkart -amazon -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "macrame wall hangings India inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "premium rugs and carpets India inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "ceramic vases buy online India inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "eco-friendly home decor brands India inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "unique wall clocks India online inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "vintage home decor India inurl:shop site:.in -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "home decor inurl:shop -amazon -flipkart -pepperfry -urbanladder",
+    "page": 1
+  },
+  {
+    "phrase": "hanging lights inurl:store -flipkart -amazon -ikea",
+    "page": 1
+  },
+  {
+    "phrase": "eco friendly home products inurl:shop -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "wall shelves inurl:store -flipkart -urbanladder -pepperfry",
+    "page": 1
+  },
+  {
+    "phrase": "crockery sets inurl:shop -amazon -flipkart -ikea",
+    "page": 1
+  },
+  {
+    "phrase": "kitchen tools inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "planters for balcony online site:.in -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "pet wear inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "dog belts inurl:store -flipkart -snapdeal",
+    "page": 1
+  },
+  {
+    "phrase": "pet grooming kit india inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "eco friendly products inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "gift store online inurl:shop -amazon -flipkart -igp",
+    "page": 1
+  },
+  {
+    "phrase": "custom gift box india site:.in -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "slow fashion brand india",
+    "page": 1
+  },
+  {
+    "phrase": "vocal for local online store",
+    "page": 1
+  },
+  {
+    "phrase": "consciously crafted home decor site:.in",
+    "page": 1
+  },
+  {
+    "phrase": "designer handbags for women India inurl:shop -amazon -flipkart -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "leather sling bags women online inurl:store -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "handcrafted tote bags India inurl:shop -amazon -flipkart -ajio",
+    "page": 1
+  },
+  {
+    "phrase": "canvas backpacks for men India buy online inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "mens laptop bags stylish India inurl:shop site:.in -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "duffle bags for gym men inurl:store -flipkart -amazon -myntra",
+    "page": 1
+  },
+  {
+    "phrase": "school bags for kids online India inurl:shop -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "cartoon print backpacks kids India inurl:store -amazon -flipkart",
+    "page": 1
+  },
+  {
+    "phrase": "eco-friendly jute bags India inurl:shop -flipkart -amazon",
+    "page": 1
+  },
+  {
+    "phrase": "travel bags for women India inurl:store -amazon -flipkart",
+    "page": 1
+  }
+]
