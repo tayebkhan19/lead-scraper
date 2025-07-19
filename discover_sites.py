@@ -15,17 +15,13 @@ formatter = logging.Formatter('%(message)s')
 console.setFormatter(formatter)
 logging.getLogger('').addHandler(console)
 
-class ApiKeyManager:
-    def __init__(self, api_keys_str):
-        self.keys, self.current_index = [k.strip() for k in api_keys_str.split(',') if k.strip()], 0
-        if not self.keys: raise ValueError("No API keys provided.")
-    def get_key(self): return self.keys[self.current_index]
-    def rotate_key(self):
-        self.current_index = (self.current_index + 1) % len(self.keys)
-        logging.warning(f"Rotating to next API key (index {self.current_index}).")
-        return self.get_key()
+# --- CONFIGURATION (MODIFIED) ---
+SEARCH_CONFIG_FILE = "search_phrases.json"
+GOOGLE_SHEET_NAME = os.getenv("GSHEET_NAME", "Scraped Leads")
+GOOGLE_CREDS_FILE = "credentials.json"
+# Reads a single API key now
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
-SEARCH_CONFIG_FILE, GOOGLE_SHEET_NAME, GOOGLE_CREDS_FILE, SERPER_API_KEYS_STR = "search_phrases.json", os.getenv("GSHEET_NAME", "Scraped Leads"), "credentials.json", os.getenv("SERPER_API_KEYS")
 USER_AGENTS = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36']
 BLACKLISTED_DOMAINS = ['amazon.com', 'flipkart.com', 'myntra.com', 'ajio.com', 'meesho.com', 'nykaa.com']
 NEGATIVE_PATH_KEYWORDS = ['blog', 'news', 'docs', 'forum', 'support', 'publication', 'careers']
@@ -34,6 +30,7 @@ INDIAN_TECH_KEYWORDS = ['razorpay', 'payu', 'instamojo', 'shiprocket', 'delhiver
 POLICY_PAGE_HINTS = ['contact', 'about', 'legal', 'policy', 'shipping', 'terms']
 SOCIAL_MEDIA_DOMAINS = ['facebook.com', 'instagram.com', 'twitter.com', 'linkedin.com', 'youtube.com']
 
+# ... (setup_google_sheet, get_existing_urls_from_sheet, and other helpers are unchanged) ...
 def setup_google_sheet():
     try:
         logging.info("Connecting to Google Sheets...")
@@ -49,7 +46,6 @@ def setup_google_sheet():
         logging.info("Google Sheets connection successful.")
         return leads_ws, logs_ws
     except Exception as e: logging.error(f"❌ Google Sheets Error: {e}"); return None, None
-
 def get_existing_urls_from_sheet(worksheet):
     try:
         logging.info("Fetching existing URLs from Google Sheet...")
@@ -57,7 +53,6 @@ def get_existing_urls_from_sheet(worksheet):
         logging.info(f"Found {len(urls) -1} existing URLs in the sheet.")
         return set(urls[1:])
     except Exception as e: logging.error(f"❌ Could not fetch existing URLs: {e}"); return set()
-
 def clean_and_validate_url(url):
     try:
         match = re.search(r'https?://[^\s?#]+', url)
@@ -69,14 +64,12 @@ def clean_and_validate_url(url):
         if any(blacklisted in domain for blacklisted in BLACKLISTED_DOMAINS): return None
         return cleaned_url
     except Exception: return None
-
 def save_to_gsheet(worksheet, lead_data):
     try:
         timestamp, socials = time.strftime("%Y-%m-%d %H:%M:%S"), lead_data.get("social_links", {})
         worksheet.append_row([lead_data.get("URL", "N/F"), lead_data.get("Email", "N/F"), lead_data.get("Phone Number", "N/F"), socials.get("facebook", "N/F"), socials.get("instagram", "N/F"), socials.get("twitter", "N/F"), socials.get("linkedin", "N/F"), timestamp])
         logging.info(f"✅ Saved to Google Sheet: {lead_data.get('URL')}")
     except gspread.exceptions.APIError as e: logging.error(f"❌ GSheet API error: {e}"); time.sleep(60)
-
 def save_log_to_gsheet(worksheet, total_leads, credits_used, summary_lines):
     try:
         logging.info("Saving run summary to the log sheet...")
@@ -84,15 +77,12 @@ def save_log_to_gsheet(worksheet, total_leads, credits_used, summary_lines):
         worksheet.append_row([timestamp, total_leads, credits_used, summary_text])
         logging.info("✅ Run summary saved successfully.")
     except Exception as e: logging.error(f"❌ Could not save run summary: {e}")
-
 def _extract_email(text):
     match = re.search(r'[\w\.\-]+@[\w\.\-]+\.\w+', text)
     return match.group(0) if match else "Not Found"
-
 def _extract_phone_number(text):
     for match in phonenumbers.PhoneNumberMatcher(text, "IN"): return phonenumbers.format_number(match.number, phonenumbers.PhoneNumberFormat.E164)
     return "Not Found"
-
 def _extract_social_links(soup):
     social_links = {}
     for a in soup.find_all('a', href=True):
@@ -101,7 +91,6 @@ def _extract_social_links(soup):
             platform = domain.split('.')[0]
             if domain in href and platform not in social_links: social_links[platform] = href
     return social_links
-
 def analyze_site(url):
     logging.info(f"   Analyzing {url}...")
     try:
@@ -135,30 +124,29 @@ def analyze_site(url):
     except requests.exceptions.RequestException as e: logging.warning(f"   [FAIL] Could not access site: {e}"); return None
     except Exception as e: logging.error(f"   [FAIL] Unexpected analysis error: {e}"); return None
 
-def get_search_results(phrase_obj, key_manager):
-    phrase, page = phrase_obj['phrase'], phrase_obj['page']
+# --- MODIFIED: SEARCH FUNCTION FOR SINGLE KEY ---
+def get_search_results(phrase_obj):
+    phrase = phrase_obj['phrase']
+    page = phrase_obj['page']
     api_url = "https://google.serper.dev/search"
     payload = json.dumps({"q": phrase, "gl": "in", "num": 100, "page": page})
-    for _ in range(len(key_manager.keys)):
-        headers = {'X-API-KEY': key_manager.get_key(), 'Content-Type': 'application/json'}
-        try:
-            response = requests.post(api_url, headers=headers, data=payload, timeout=10)
-            if response.status_code == 403: key_manager.rotate_key(); continue
-            response.raise_for_status()
-            return response.json().get('organic', [])
-        except requests.exceptions.RequestException as e: logging.error(f"❌ RequestException for '{phrase}': {e}"); return []
-    logging.error(f"❌ All API keys failed for '{phrase}'."); return []
+    headers = {'X-API-KEY': SERPER_API_KEY, 'Content-Type': 'application/json'}
+    try:
+        response = requests.post(api_url, headers=headers, data=payload, timeout=10)
+        response.raise_for_status()
+        return response.json().get('organic', [])
+    except requests.exceptions.RequestException as e:
+        logging.error(f"❌ API search failed for '{phrase}': {e}")
+        return []
 
 # --- MAIN EXECUTION BLOCK ---
 if __name__ == "__main__":
     logging.info("🚀 Starting E-commerce Site Discovery Tool...")
     CREDITS_PER_SEARCH, PHRASES_PER_RUN, MAX_PAGE_SEARCH = 2, 30, 3
 
-    if not SERPER_API_KEYS_STR: logging.error("❌ SERPER_API_KEYS not set."); exit(1)
+    if not SERPER_API_KEY:
+        logging.error("❌ SERPER_API_KEY environment variable not set. Exiting."); exit(1)
     
-    try: api_key_manager = ApiKeyManager(SERPER_API_KEYS_STR)
-    except ValueError as e: logging.error(f"❌ {e}"); exit(1)
-
     leads_ws, logs_ws = setup_google_sheet()
     if not leads_ws or not logs_ws: exit(1)
 
@@ -180,7 +168,7 @@ if __name__ == "__main__":
 
     for phrase_obj in phrases_to_process:
         logging.info(f"\n🔍 Searching API: \"{phrase_obj['phrase']}\" (Page {phrase_obj['page']})")
-        results = get_search_results(phrase_obj, api_key_manager)
+        results = get_search_results(phrase_obj) # MODIFIED: No longer passes key manager
         api_calls_made += 1
         for result in results:
             if url := result.get('link'):
@@ -203,7 +191,6 @@ if __name__ == "__main__":
                         save_to_gsheet(leads_ws, lead_data)
                 except Exception as e: logging.error(f"Error processing a future: {e}")
     
-    # Reassemble the list with the processed phrases moved to the end
     final_phrase_list = remaining_phrases + processed_phrases
     with open(SEARCH_CONFIG_FILE, 'w') as f: json.dump(final_phrase_list, f, indent=2)
     logging.info(f"✅ Updated '{SEARCH_CONFIG_FILE}' and moved processed phrases to the end.")
