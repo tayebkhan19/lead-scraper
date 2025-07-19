@@ -2,8 +2,10 @@ name: Run Lead Scraper
 
 on:
   schedule:
-    # Runs once daily at midnight UTC
-    - cron: '0 0 * * *'
+    # Runs at 2:00 AM UTC (7:30 AM IST)
+    - cron: '0 2 * * *'
+    # Runs at 1:30 PM UTC (7:00 PM IST)
+    - cron: '30 13 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:
@@ -37,7 +39,7 @@ jobs:
 
       - name: Run Python Script
         env:
-          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          SERPER_API_KEYS: ${{ secrets.SERPER_API_KEYS }}
           GSHEET_NAME: ${{ secrets.GSHEET_NAME }}
         run: python discover_sites.py
 
