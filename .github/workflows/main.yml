@@ -2,16 +2,14 @@ name: Run Lead Scraper
 
 on:
   schedule:
-    # Runs at 2:00 AM UTC (7:30 AM IST)
-    - cron: '0 2 * * *'
-    # Runs at 1:30 PM UTC (7:00 PM IST)
-    - cron: '30 13 * * *'
+    # Runs every 5 hours (approximates 5 runs per day)
+    - cron: '0 */5 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 360 # Set a 6-hour timeout for the job
+    timeout-minutes: 60 # A 1-hour timeout should be plenty for a batch of 30
 
     steps:
       - name: Checkout Repo
@@ -42,6 +40,19 @@ jobs:
           SERPER_API_KEYS: ${{ secrets.SERPER_API_KEYS }}
           GSHEET_NAME: ${{ secrets.GSHEET_NAME }}
         run: python discover_sites.py
+
+      - name: Commit and push search phrases file
+        if: success()
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add search_phrases.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update search phrase queue"
+            git push
+          fi
 
       - name: Upload logs if failed
         if: failure()
