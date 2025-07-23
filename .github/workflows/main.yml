@@ -2,7 +2,7 @@ name: Run Lead Scraper
 
 on:
   schedule:
-    # Runs every 5 hours (approximates 5 runs per day)
+    # Runs every 5 hours
     - cron: '0 */5 * * *'
   workflow_dispatch: # Allows manual trigger
 
@@ -37,7 +37,6 @@ jobs:
 
       - name: Run Python Script
         env:
-          # MODIFIED: Use the singular secret name
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           GSHEET_NAME: ${{ secrets.GSHEET_NAME }}
         run: python discover_sites.py
