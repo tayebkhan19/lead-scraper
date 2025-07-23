@@ -22,7 +22,7 @@ logging.getLogger('').addHandler(console)
 SEARCH_CONFIG_FILE = "search_phrases.json"
 GOOGLE_SHEET_NAME = os.getenv("GSHEET_NAME", "Scraped Leads")
 GOOGLE_CREDS_FILE = "credentials.json"
-SERPER_API_KEY = os.getenv("SERPER_API_KEY") # Uses a single API key
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 USER_AGENTS = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36']
 BLACKLISTED_DOMAINS = ['amazon.com', 'flipkart.com', 'myntra.com', 'ajio.com', 'meesho.com', 'nykaa.com']
 NEGATIVE_PATH_KEYWORDS = ['blog', 'news', 'docs', 'forum', 'support', 'publication', 'careers']
@@ -158,8 +158,7 @@ def get_search_results(phrase_obj):
 # --- MAIN EXECUTION BLOCK ---
 if __name__ == "__main__":
     logging.info("🚀 Starting E-commerce Site Discovery Tool...")
-    CREDITS_PER_SEARCH, PHRASES_PER_RUN = 2, 30
-    MAX_PAGE_SEARCH = 2 # MODIFIED: Search up to page 2 only
+    CREDITS_PER_SEARCH, PHRASES_PER_RUN, MAX_PAGE_SEARCH = 2, 30, 2
 
     if not SERPER_API_KEY: logging.error("❌ SERPER_API_KEY not set."); exit(1)
 
@@ -170,9 +169,12 @@ if __name__ == "__main__":
     total_leads_found, log_summary, api_calls_made = 0, [], 0
     
     try:
-        with open(SEARCH_CONFIG_FILE, 'r') as f: all_phrases = json.load(f)
+        with open(SEARCH_CONFIG_FILE, 'r') as f: all_phrases_data = json.load(f)
     except FileNotFoundError: logging.error(f"❌ '{SEARCH_CONFIG_FILE}' not found."); exit(1)
 
+    # Flatten the dictionary of categories into a single list of phrase objects
+    all_phrases = [phrase_obj for category_phrases in all_phrases_data.values() for phrase_obj in category_phrases]
+    
     phrases_to_process = all_phrases[:PHRASES_PER_RUN]
     remaining_phrases = all_phrases[PHRASES_PER_RUN:]
 
@@ -211,7 +213,23 @@ if __name__ == "__main__":
         processed_phrases.append(phrase_obj)
     
     final_phrase_list = remaining_phrases + processed_phrases
-    with open(SEARCH_CONFIG_FILE, 'w') as f: json.dump(final_phrase_list, f, indent=2)
+    
+    # Reconstruct the dictionary structure for saving
+    final_search_data = {}
+    for phrase_obj in final_phrase_list:
+        found = False
+        for category, original_phrases in all_phrases_data.items():
+            for original_obj in original_phrases:
+                if original_obj['phrase'] == phrase_obj['phrase']:
+                    if category not in final_search_data:
+                        final_search_data[category] = []
+                    final_search_data[category].append(phrase_obj)
+                    found = True
+                    break
+            if found:
+                break
+
+    with open(SEARCH_CONFIG_FILE, 'w') as f: json.dump(final_search_data, f, indent=2)
     logging.info(f"✅ Updated '{SEARCH_CONFIG_FILE}' and moved processed phrases to the end.")
 
     credits_used = api_calls_made * CREDITS_PER_SEARCH
