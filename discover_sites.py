@@ -158,7 +158,7 @@ def get_search_results(phrase_obj):
 # --- MAIN EXECUTION BLOCK ---
 if __name__ == "__main__":
     logging.info("🚀 Starting E-commerce Site Discovery Tool...")
-    CREDITS_PER_SEARCH, PHRASES_PER_RUN, MAX_PAGE_SEARCH = 2, 30, 2
+    CREDITS_PER_SEARCH, PHRASES_PER_RUN, MAX_PAGE_SEARCH = 2, 125, 2
 
     if not SERPER_API_KEY: logging.error("❌ SERPER_API_KEY not set."); exit(1)
 
