@@ -1,506 +1,6 @@
 {
   "womens_fashion": [
     {
-      "phrase": "women ethnic wear Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "women ethnic wear Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "women ethnic wear Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "women ethnic wear Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "women ethnic wear Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "women ethnic wear Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "women ethnic wear Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "women ethnic wear Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Goa (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Hyderabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Indore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Jaipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Kanpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Kochi (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Kolkata (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Lucknow (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Ludhiana (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Madurai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "western dresses for women Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Goa (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Hyderabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Indore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Jaipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Kanpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Kochi (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Kolkata (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Lucknow (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Ludhiana (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Madurai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "lehengas online Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Goa (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Hyderabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Indore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Jaipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Kanpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Kochi (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Kolkata (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Lucknow (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Ludhiana (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Madurai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "sarees online shopping Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Goa (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Hyderabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Indore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Jaipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Kanpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Kochi (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Kolkata (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Lucknow (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Ludhiana (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Madurai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "gowns for women online Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "resort wear India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "resort wear Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "resort wear Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "resort wear Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "resort wear Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "resort wear Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "resort wear Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "resort wear Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
-      "phrase": "resort wear Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
-      "page": 2
-    },
-    {
       "phrase": "resort wear Goa (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
       "page": 2
     },
@@ -1726,6 +1226,506 @@
     },
     {
       "phrase": "women ethnic wear Madurai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "women ethnic wear Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "women ethnic wear Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "women ethnic wear Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "women ethnic wear Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "women ethnic wear Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "women ethnic wear Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "women ethnic wear Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "women ethnic wear Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Goa (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Hyderabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Indore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Jaipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Kanpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Kochi (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Kolkata (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Lucknow (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Ludhiana (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Madurai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "western dresses for women Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Goa (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Hyderabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Indore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Jaipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Kanpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Kochi (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Kolkata (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Lucknow (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Ludhiana (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Madurai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "lehengas online Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Goa (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Hyderabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Indore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Jaipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Kanpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Kochi (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Kolkata (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Lucknow (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Ludhiana (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Madurai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "sarees online shopping Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Goa (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Hyderabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Indore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Jaipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Kanpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Kochi (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Kolkata (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Lucknow (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Ludhiana (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Madurai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Mumbai (MMR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Nagpur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Patna (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Pune (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Raipur (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Thiruvananthapuram (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Vadodara (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "gowns for women online Visakhapatnam (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "resort wear India (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "resort wear Aurangabad (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "resort wear Bengaluru (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "resort wear Bhopal (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "resort wear Bhubaneswar (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "resort wear Chandigarh (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "resort wear Chennai (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "resort wear Coimbatore (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
+      "page": 1
+    },
+    {
+      "phrase": "resort wear Delhi (NCR) (inurl:shop OR inurl:store OR inurl:products OR inurl:catalog OR inurl:collection OR inurl:category) -amazon -flipkart -myntra -ajio -meesho -snapdeal -nykaa -tatacliq",
       "page": 1
     }
   ],
